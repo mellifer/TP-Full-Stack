@@ -952,6 +952,10 @@ th, td{
         height: 150px;
     }
     
+    .lista1{
+        display:flex;
+    }
+    
 }
 
 @media (min-width:481px) and (max-width: 768px){
