@@ -819,7 +819,7 @@ th, td{
 
 
 /* Estilos para otros dispositivos */
-@media (max-width: 720px){ 
+@media (max-width: 480px){ 
 
     body{
         padding: 0px 0px;
@@ -954,7 +954,7 @@ th, td{
     
 }
 
-@media (min-width:721px) and (max-width: 768px){
+@media (min-width:481px) and (max-width: 768px){
 
     body{
         padding: 0px 0px;
