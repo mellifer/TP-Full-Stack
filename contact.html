@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo BAMBA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/571553e968.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+    <script type="text/javascript" defer src="popup.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="item" id="nav-menu_grid">
+            <header>
+                <nav class="nav">
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul class="nav-menu">
+                        <li class="nav-menu-item"><a href="index.html"
+                                class="nav-menu-link nav-menu-link_activo">Home</a></li>
+                        <li class="nav-menu-item"><a href="estrategias.html"
+                                class="nav-menu-link nav-menu-link_activo">Estrategias</a></li>
+                        <li class="nav-menu-item"><a href="register.html"
+                                class="nav-menu-link nav-menu-link_activo">Registro</a></li>
+                        <li class="nav-menu-item"><a href="about.html" class="nav-menu-link nav-menu-link_activo">Acerca
+                                de
+                                Nosotros</a>
+                        </li>
+                        <li class="nav-menu-item"><a href="contact.html"
+                                class="nav-menu-link nav-menu-link_activo">Contacto</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="item" id="nav-logo_grid">
+            <header>
+                <img class="logo" src="Imagenes/Banner.png">
+            </header>
+        </div>
+        <div class="itemindex" id="main">
+
+            <menu>
+                <div class="imgc1" id="contacto">
+                    <div class="txtc">
+                        <div class="fondoc">
+                            Nuestros canales de contacto
+                        </div>
+                    </div>
+                </div>
+
+                <section class="Seccion1_contacto">
+                    <div class="iframe">
+                        <h3 class="subs-c">Nuestra Oficina</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13144.057250398851!2d-58.450325!3d-34.553193!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53913794a25e9ce2!2sEdenor!5e0!3m2!1ses-419!2sar!4v1630870041961!5m2!1ses-419!2sar"
+                            width="600" height="400" style="border: 1px solid black;" allowfullscreen="" loading="lazy"
+                            class="mapa"></iframe>
+                    </div>
+
+                    <div class="infoc">
+                        <ul class=listac>
+                            <li class="lic"><span class="textc">Dirección:</span> <span class="textc2">Av. del
+                                    Libertador 6363 - CABA</span></li>
+                            <li class="lic"><span class="textc">Telefono:</span> <span class="textc2">+54 011 4675
+                                    9381</span></li>
+                            <li class="lic"><span class="textc">Whatsapp:</span> <a href="http://web.whatsapp.com/"
+                                    target="_blank"><span class="linkc">+54 011 9379 8273</span></a></li>
+                            <li class="lic"><span class="textc">Email:</span> <a href="mailto:consultas@GBamba.com"
+                                    you><span class="linkc">Consultas@GBamba.com</span></a></li>
+                            <li class="lic"><span class="textc">Instagram:</span> <a href="http://www.intagram.com"
+                                    target="_blank"><span class="linkc">Instagram Grupo Bamba</span></a></li>
+                            <li class="lic"><span class="textc">Facebook:</span> <a href="http://www.facebook.com"
+                                    target="_blank"><span class="linkc">Facebook Grupo Bamba</span></a></li>
+                            <li class="lic"><span class="textc">Twitter:</span> <a href="http://www.twitter.com"
+                                    target="_blank"><span class="linkc">Twitter Grupo Bamba</span></a></li>
+                            <li class="lic"><span class="textc">LinkedIn:</span> <a href="http://www.LinkedIn.com"
+                                    target="_blank"><span class="linkc">LinkedIn Grupo Bamba</span></a></li>
+                        </ul>
+                    </div>
+
+
+                </section>
+
+                <section class="Seccion2_contacto">
+                    <div class="contenedor_carrucel">
+                        <div class="slides fade">
+                            <div class="sliden">1/3</div>
+                            <img src="Imagenes/oficinas1.png" alt="" style="width: 100%" height="300px">
+                            <div class="slidet">Contamos con equipamiento de vanguardia</div>
+                        </div>
+
+                        <div class="slides fade">
+                            <div class="sliden">2/3</div>
+                            <img src="Imagenes/oficinas2.jpg" alt="" style="width: 100%" height="300px">
+                            <div class="slidet">Ubicados en oficinas exlusivas</div>
+                        </div>
+
+                        <div class="slides fade">
+                            <div class="sliden">3/3</div>
+                            <img src="Imagenes/oficina3.jpg" alt="" style="width: 100%" height="300px">
+                            <div class="slidet">Junto con el personal mas capacitado de LATAM</div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(+1)">&#10095;</a>
+                    </div>
+
+                    <div style="text-align: center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </section>
+
+            </menu>
+
+        </div>
+        <footer class="item" id="footer">
+            <div class="div_footer" id="terminos_y_derechos">
+                <p>Derechos reservados @2021</p>
+                <p><a class="popup" id="tyc" href="TyC.html"
+                        onclick="return popup(this,'Terminos y Condiciones')">Términos y Condiciones</a></p>
+            </div>
+            <div class="div_footer" id="sitios">
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square iconoyt"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook iconofb"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram iconoinsta"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin iconolinkedin"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp iconow"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script defer src="slides.js"></script>
+</body>
+
+</html>

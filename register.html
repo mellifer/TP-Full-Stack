@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/571553e968.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+    <script type="text/javascript" defer src="popup.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="item" id="nav-menu_grid">
+            <header>
+                <nav class="nav">
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul class="nav-menu">
+                        <li class="nav-menu-item"><a href="index.html"
+                                class="nav-menu-link nav-menu-link_activo">Home</a></li>
+                        <li class="nav-menu-item"><a href="estrategias.html"
+                                class="nav-menu-link nav-menu-link_activo">Estrategias</a></li>
+                        <li class="nav-menu-item"><a href="register.html"
+                                class="nav-menu-link nav-menu-link_activo">Registro</a></li>
+                        <li class="nav-menu-item"><a href="about.html" class="nav-menu-link nav-menu-link_activo">Acerca
+                                de
+                                Nosotros</a>
+                        </li>
+                        <li class="nav-menu-item"><a href="contact.html"
+                                class="nav-menu-link nav-menu-link_activo">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="item" id="nav-logo_grid">
+            <header>
+                <img class="logo" src="Imagenes/Banner.png">
+            </header>
+        </div>
+
+        <div class="itemindex" id="main">
+
+            <menu>
+                <div class="imgr1" id="registro">
+                    <div class="txt">
+                        <div class="fondo">
+                            Registrese para ponernos en contacto y ofrecerle nuestro plan Premium
+                        </div>
+                    </div>
+                </div>
+
+                <section class="Seccion1_registro">
+                    <div class="form">
+                        <h3 class="subsr">Formulario de registro</h3>
+                        <form action="show_data.html" method="GET" enctype="text/plain" class="formulario" onsubmit="return validar()">
+
+                            <table class="tregistro">
+                                <tr>
+                                    <td class="ttd">Nombre:</td>
+                                    <td class="ttd"><input type="text" name="nombre" size=18 maxlength="12"
+                                            placeholder="Ingrese su nombre" required pattern="[A-Za-z]{2,12}" title="Solo se admiten letras" id="nombre"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ttd">Apellido:</td>
+                                    <td class="ttd"><input type="text" name="apellido" size=18 maxlength="12"
+                                            placeholder="Ingrese su apellido" required pattern="[A-Za-z]{2,12}" title="Solo se admiten letras" id="apellido"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ttd">Dirección:</td>
+                                    <td class="ttd"><input type="text" name="direccion" size=18 maxlength="25"
+                                            placeholder="Ingrese su dirección" required id="direccion"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ttd">Ciudad:</td>
+                                    <td class="ttd"><input type="text" name="ciudad" size=18 maxlength="12"
+                                            placeholder="Ingrese su ciudad" required id="ciudad"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ttd">Código Postal:</td>
+                                    <td class="ttd"><input type="te xt" name="codigo" size=18 maxlength="5"
+                                            placeholder="Ingrese su código postal" required pattern="[0-9]{4,5}" title="Solo se admiten números" id="codigo"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ttd">Email:</td>
+                                    <td class="ttd"><input type="text" name="email" size=18 maxlength="30"
+                                            placeholder="Ingrese su email" required id="email"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ttd">Fecha de Nacimiento:</td>
+                                    <td class="ttd"><input type="date" name="fecha" required id="fecha"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ttd">Género:</td>
+                                    <td class="ttd"><select name="sexo" id="form">
+                                            <option disabled selected>Elija su género</option>
+                                            <option value="Masculino">Masculino</option>
+                                            <option value="Femenino">Femenino</option>
+                                            <option value="Otro">Otro</option>
+                                        </select></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ttd">Estudios:</td>
+                                    <td class="ttd">
+                                        <ul type="none" class="listar">
+                                            <li class="lir"><input type="radio" name="estudios"
+                                                    value="Primarios Incompletos" id ="PI"> Primarios Incompletos</li>
+                                            <li class="lir"><input type="radio" name="estudios" value="Primarios" id="PC">
+                                                Primarios</li>
+                                            <li class="lir"><input type="radio" name="estudios"
+                                                    value="Secundarios Incompletos" id="SI"> Secundarios Incompletos
+                                            </li>
+                                            <li class="lir"><input type="radio" name="estudios" value="Secundarios" id="SC">
+                                                Secundarios</li>
+                                            <li class="lir"><input type="radio" name="estudios"
+                                                    value="Terciarios Incompletos" id="TI"> Terciarios Incompletos
+                                            </li>
+                                            <li class="lir"><input type="radio" name="estudios" value="Terciarios" id="TC">
+                                                Terciarios</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ttd"></td>
+                                    <td class="ttd"><input type="checkbox" name=tyc required id="tyc">  Acepto los términos y
+                                        condiciones</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="ttd"></td>
+                                    <td class="ttd"><input type="button" value="Enviar" id="enviar">
+                                        <input type="reset" value="Borrar">
+                                    </td>
+                                </tr>
+
+
+                            </table>
+                        </form>
+                    </div>
+
+                    <div class="aside">
+                        <img src="Imagenes/registro2.jpg" alt="" height="400px" width="600px" class="imgreg">
+                    </div>
+
+                </section>
+            </menu>
+        </div>
+        <footer class="item" id="footer">
+            <div class="div_footer" id="terminos_y_derechos">
+                <p>Derechos reservados @2021</p>
+                <p><a class="popup" id="tyc" href="TyC.html"
+                        onclick="return popup(this,'Terminos y Condiciones')">Términos y Condiciones</a></p>
+            </div>
+            <div class="div_footer" id="sitios">
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square iconoyt"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook iconofb"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram iconoinsta"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin iconolinkedin"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp iconow"></i></a>
+            </div>
+        </footer>
+    </div>
+<script defer src="validar.js"></script>
+</body>
+
+</html>

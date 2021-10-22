@@ -1,0 +1,1090 @@
+/* Importaciones */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+/* Globales */
+
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+html {
+    color:black;
+    background-color: #2c3e50;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #2c3e50;
+}
+
+menu {
+    padding: 0px 0px;
+}
+
+ul {
+    padding: 0px;
+}
+
+.nav{ 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: max-content;
+    position: sticky;
+    background-color: #E67E22;
+}
+
+.nav-registro{
+    background-color: #E67E22;
+    height: 80px;
+}
+
+body{
+    padding: 0px 20px;
+}
+
+a:link{
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+}
+
+a:visited{
+    color: black;
+    opacity: 1;
+    font-weight: 900;
+}
+
+/* Clases */
+.about,
+.est, .est2 .est3{
+    text-align: justify;
+    margin: 20px 0px;
+}
+.contenedor .img1{
+    background-image: url("Imagenes/finan.jpg");
+    min-height: 400px;
+    width: 1fr;
+    align-self: center;
+    justify-self: center;
+}
+
+.contenedor .img2{
+    background-image: url("Imagenes/directorio1.jpg");
+    min-height: 400px;
+    width: 1fr;
+}
+
+.contenedor .img3{
+    background-image: url("Imagenes/exito.jpg");
+    min-height: 400px;
+    width: 1fr;
+}
+
+.contenedor .img4{
+    background-image: url("Imagenes/exito2.jpg");
+    min-height: 400px;
+    width: 1fr;
+}
+
+.contenedor .imga1 {
+    background-image: url("Imagenes/quienes5.png");
+    min-height: 400px;
+    width: 1fr;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    position: relative;
+}
+
+.contenedor .imgr1 {
+    background-image: url("Imagenes/registro.jpg");
+    min-height: 400px;
+    width: 1fr;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    position: relative;
+}
+
+.imge1 {
+    background-image: url("Imagenes/estrategia2.png");
+    min-height: 400px;
+    width: 1fr;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    position: relative;
+}
+
+.imgc1 {
+    background-image: url("Imagenes/contacto.jpg");
+    min-height: 400px;
+    width: 1fr;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    position: relative;
+}
+
+.txtc .fondoc {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 50%;
+}
+
+.itemindex{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+opacity: 0.7;
+position: relative;
+}
+
+.txt{
+position: absolute;
+top: 50%;
+width: 100%;
+text-align: center;
+color: black;
+font-size: 27px;
+letter-spacing: 8px;
+text-transform: uppercase;
+}
+
+.txtc{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textc{
+    color: moccasin;
+    font-size: 18px;
+}
+
+.textc2{
+    font-weight: bold;
+}
+
+.txt .fondo {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Seccion1,
+.Seccion1_contacto,
+.Seccion1_registro,
+.Seccion2_contacto{
+    text-align: center;
+    padding: 20px;
+    color: #ddd;
+    text-decoration: none;
+    background-color: #282e34;
+}
+
+.Seccion1_contacto{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-areas: "infoc iframe";
+}
+
+.Seccion1_registro{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-areas: "form aside";
+}
+
+.form{
+    display: flex;
+    flex-flow: column;
+    grid-area: "form";
+    align-items: center;
+}
+
+.aside{
+    display: flex;
+    flex-flow: column;
+    grid-area: "aside";
+    justify-content: center;
+    align-items: center;
+}
+
+.imgreg{
+    border-radius: 25px;
+
+}
+
+
+.infoc{
+    display: flex;
+    grid-area: "infoc";
+    justify-content: center;
+    align-items: center;
+
+}
+
+.listac{
+    padding-left: 0;
+    padding: 10px;
+}
+
+.lic{
+    line-height: 100%;
+    text-align: left;
+    padding: 20px;
+}
+
+.iframe{
+    grid-area: "iframe";
+
+}
+
+.mapa{
+    margin: 15px;
+}
+
+.Seccion1_contacto a:link{
+
+    text-decoration: none;
+}
+
+.linkc{
+    color: #ddd;
+}
+
+.linkc:hover{
+    color: #E67E22;
+}
+
+.Seccion1 a,
+.Seccion1 a:link {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.li1,
+.li2,
+.li3 {
+    list-style: none;
+    padding: 0px;
+    margin: 20px 20px;
+}
+
+.subs{
+    font-size: 24px;
+    color: moccasin;
+}
+
+.subsr{
+    font-size: 24px;
+    color: moccasin;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.subs-e{
+    font-size: 28px;
+    color: moccasin;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+.subs-c{
+    font-size: 24px;
+    color: moccasin;
+    text-decoration: underline;
+}
+
+.est1, .est2, .est3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.elementolista{
+    padding: 10px 0px;
+    color: moccasin;
+}
+
+.Seccion2{
+    text-align: center;
+    padding: 20px;
+    color: #ddd;
+    text-decoration: none;
+    background-color: #282e34;
+}
+
+
+.li21,
+.li22,
+.li23,
+.li24 {
+    list-style: none;
+    padding: 0px;
+    margin: 20px 20px;
+}
+
+.Seccion3{
+    text-align: center;
+    padding: 20px;
+    color: #ddd;
+    text-decoration: none;
+    background-color: #282e34;
+}
+
+.clientes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "cli    cli    cli    cli   cli    cli"
+    "cli    cli    cli    cli   cli    cli"
+}
+
+.cli {
+    padding: 5px;
+    margin: 20px 20px;
+}
+
+.subs{
+    font-size: 24px;
+    color: moccasin;
+    text-transform: uppercase;
+}
+
+.logo{
+display: flex;
+align-self: center;
+justify-content: center;
+max-height: 80px;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu-item,
+.nav-menu-itemr{ 
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: bold;
+    margin: 0px 10px;
+    opacity: 0.6;
+    width: max-content;
+    text-decoration: none;
+    position: sticky;
+    top: 0%;
+}
+
+.nav-menu-link:hover{
+    background-color: #2c3e50;
+    opacity: 1;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-menu-link{
+    text-decoration: none;
+    padding: 12px 12px;
+    border-radius: 20px;
+}
+
+.iconoyt{
+    font-size: 30px;
+    color: #c4302b;
+    margin: 0 5px;
+}
+
+.iconofb{
+    font-size: 30px;
+    color: #3b5998;
+    margin: 0 5px;
+}
+
+.iconoinsta{
+    font-size: 30px;
+    color: #DD2A7B;
+    margin: 0 5px;
+}
+
+.iconolinkedin{
+    font-size: 30px;
+    color: #0e76a8;
+    margin: 0 5px;
+}
+
+.iconow{
+    font-size: 30px;
+    color: #075E54;
+    margin: 0 5px;
+}
+
+.iconoyt:hover,
+.iconofb:hover,
+.iconoinsta:hover,
+.iconolinkedin:hover,
+.iconow:hover{
+    transition: 0.2s;
+    color: black;
+}
+
+
+.nav-toggle{ 
+    color: black;
+    opacity: 0.6;
+    background: none;
+    border:none;
+    font-size: 20px;
+    padding-left: 20px;
+    display: none;
+}
+
+.tregistro .ttd{
+    border: 0px;
+}
+
+.listar{
+    display: flex;
+    flex-flow: column;
+    padding-left: 0px;
+}
+
+.lir{
+    line-height: 100%;
+    text-align: left;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.formulario{
+    display: flex;
+}
+
+/* Grids */
+.contenedor{ 
+    display: grid;
+    grid-template-columns: 3fr auto;
+    grid-template-rows: 80px 4fr 80px;
+    grid-template-areas: 
+    "nav     logo"
+    "main    main"
+    "footer  footer"
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-menu_grid{ 
+    grid-area: "nav";
+    background-color: #E67E22;
+    position: sticky;
+    top: 0;
+    border: black 2px solid;
+    border-right: none;
+    z-index: 9;
+}
+
+#nav-logo_grid{ 
+    grid-area: "logo";
+    justify-content: center;
+    align-content: center;
+    position: sticky;
+    top: 0;
+    background: black;
+    z-index: 9;
+}
+
+#main{ 
+    grid:"main";
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-left: black 2px solid;
+    border-right: black 2px solid;
+    background-color: #D4E6F1;
+}
+
+#footer{ 
+    grid-area: "footer";
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: black 2px solid;
+    background-color: grey;
+}
+
+.item#footer{
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+    height: 100px;
+    font-weight: bold;
+}
+
+#terminos_y_derechos{
+    text-align-last: center;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+#sitios{
+    display: flex;
+}
+
+.contenedor#TyC{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 100px;
+    grid-template-areas: 
+    "item" 
+    "item"
+}
+
+.TyC_container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+.logo_TyC{
+    border: black 1px solid;
+    background-color: black;
+}
+
+.item#TyC_menu{
+    display: flex;
+    flex-flow: column;
+    padding: 20px 20px;
+    border: black 2px solid;
+    border-bottom: none;
+}
+
+.item#TyC_footer{
+    border: black 2px solid;
+    background-color: grey;
+}
+
+#TyC_body{
+    padding: 0 20px;
+}
+
+.lista1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "li1    li2    li3"
+
+}
+
+.li1{
+    grid-area: "li1";
+}
+
+.li2{
+    grid-area: "li2";
+}
+
+.li3{
+    grid-area: "li3";
+}
+
+.lista2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "li21    li22    li23    li24"
+
+}
+
+.li21{
+    grid-area: "li1";
+}
+
+.li22{
+    grid-area: "li2";
+}
+
+.li23{
+    grid-area: "li3";
+}
+
+.li24{
+    grid-area: "li3";
+}
+
+.clientes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "cli    cli    cli    cli   cli    cli"
+    "cli    cli    cli    cli   cli    cli"
+}
+
+.Seccion2A{
+display: flex;
+justify-content: center;
+width: 1fr;
+}
+
+.papel{
+    font-weight: bold;
+    color: moccasin;
+}
+
+#Violeta{
+    color: violet;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#Azul{
+    color: rgb(85, 138, 237);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#Celeste{
+    color: rgb(176, 204, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#Riesgo{
+    color: rgb(194, 17, 17);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+.tabla_est, th, td{
+    border: 1px solid moccasin;
+}
+
+th, td{
+    padding: 5px;
+}
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Carrecuel */
+
+.contenedor_carrucel{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slides{
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.slidet {
+    color: #2c3e50;
+    background-color: #E67E22;
+    border: 1px black solid;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.sliden{
+    color: black;
+    font-size: 16px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin-top: 15px;
+    margin-right: 5px ;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+/* Estilos para otros dispositivos */
+@media (max-width: 600px){ 
+
+    body{
+        padding: 0px 0px;
+    }
+ 
+    #contenedor {
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr 80px;
+    grid-template-areas:
+      "nav" "logo"
+      "menu" "menu"
+      "footer" "footer";
+    }
+    
+    #nav-menu_grid{
+        grid-area: "nav";
+        background-color: #E67E22;;
+    }
+
+    #nav-logo_grid{
+        grid-area: "logo";
+        grid-row-start: 0;
+    }
+    
+    #main{
+        grid:"main";
+    }
+    
+    #footer{
+        grid-area: "footer";
+        background-color: grey;
+        bottom: 0px;
+        bottom: 0px;
+        position: sticky;
+    }
+
+    .nav-menu-item{
+        font-size: 18px;
+        padding: 15px 0;
+        color: black;
+        font-weight: bold;
+        margin: 0px 10px;
+        opacity: 0.6;
+        width: max-content;
+        text-decoration: none;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        background-color: #E67E22;
+        position: fixed;
+        border: black 2px solid;
+        border-top: none;
+        top: 80px;
+        left: -100%;
+
+        transition: left 0.5s;
+    }
+
+    .nav-menu-link:hover{
+        background: none;
+        color: #83c5f7;
+        opacity: 1;
+    }
+
+    .nav-toggle{
+        display: block;
+        cursor: pointer;
+        padding: 0;
+        font-size: 200%;
+    }
+
+    .nav-menu_visible{
+        left: 0px;
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4 {
+        background-position: scroll;
+
+    }
+
+    .clientes{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "cli    cli"
+        "cli    cli"
+        "cli    cli"
+        "cli    cli"
+        "cli    cli"
+        "cli    cli"
+    }
+
+    .est1im, .est2im, .est3im{
+        width: 460px;
+    }
+
+    iframe{
+        width: 300px;
+        height: 300px;
+    }
+
+    .textc{
+        font-size: 14px;
+
+    }
+
+    .lic{
+        line-height: 100%;
+        text-align: left;
+        padding: 10px 0px;
+    }
+
+    .imgreg{                /* Esto cambia con respecto al tamaño de tablet */
+        display: none;
+    }
+
+    .linkc{
+        font-size: 12px;
+    }
+
+    .textc2{
+        font-size: 12px;
+    }
+
+    .imgaa1{
+        height: 150px;
+    }
+}
+
+@media (min-width:601px) and (max-width: 768px){
+
+    body{
+        padding: 0px 0px;
+    }
+ 
+    #contenedor {
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr 80px;
+    grid-template-areas:
+      "nav" "logo"
+      "menu" "menu"
+      "footer" "footer";
+    }
+    
+    #nav-menu_grid{
+        grid-area: "nav";
+        background-color: #E67E22;;
+    }
+
+    #nav-logo_grid{
+        grid-area: "logo";
+        grid-row-start: 0;
+    }
+    
+    #main{
+        grid:"main";
+    }
+    
+    #footer{
+        grid-area: "footer";
+        background-color: grey;
+        bottom: 0px;
+        bottom: 0px;
+        position: sticky;
+    }
+
+    .nav-menu-item{
+        font-size: 18px;
+        padding: 15px 0;
+        color: black;
+        font-weight: bold;
+        margin: 0px 10px;
+        opacity: 0.6;
+        width: max-content;
+        text-decoration: none;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        background-color: #E67E22;
+        position: fixed;
+        border: black 2px solid;
+        border-top: none;
+        top: 80px;
+        left: -100%;
+
+        transition: left 0.5s;
+    }
+
+    .nav-menu-link:hover{
+        background: none;
+        color: #83c5f7;
+        opacity: 1;
+    }
+
+    .nav-toggle{
+        display: block;
+        cursor: pointer;
+        padding: 0;
+        font-size: 200%;
+    }
+
+    .nav-menu_visible{
+        left: 0px;
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4 {
+        background-position: scroll;
+
+    }
+
+    .clientes{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "cli    cli"
+        "cli    cli"
+        "cli    cli"
+        "cli    cli"
+        "cli    cli"
+        "cli    cli"
+    }
+
+    .est1im, .est2im, .est3im{
+        width: 550px;
+    }
+
+    iframe{
+        width: 300px;
+        height: 400px;
+    }
+
+    .textc{
+        font-size: 16px;
+
+    }
+
+    .lic{
+        line-height: 100%;
+        text-align: left;
+        padding: 10px 0px;
+    }
+
+    .imgreg{
+        border-radius: 25px;
+        height: 250px;
+        width: 300px;
+    }
+
+    .linkc{
+        font-size: 14px;
+    }
+
+    .textc2{
+        font-size: 14px;
+    }
+
+    .imgaa1{
+        height: 180px;
+    }
+}
