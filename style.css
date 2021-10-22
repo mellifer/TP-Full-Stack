@@ -951,6 +951,10 @@ th, td{
     .imgaa1{
         height: 150px;
     }
+    
+    .fondoc{
+        font-size: 12px;
+    }
 }
 
 @media (min-width:721px) and (max-width: 768px){
