@@ -819,7 +819,9 @@ th, td{
 
 
 /* Estilos para otros dispositivos */
-@media (max-width: 600px){ 
+@media (device-width: 320px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3){ 
 
     body{
         padding: 0px 0px;
