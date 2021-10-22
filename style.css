@@ -954,8 +954,13 @@ th, td{
     
     .lista1{
         display:flex;
+        font-size: 10px;
     }
     
+    .lista2{
+        display:flex;
+        font-size: 10px;
+    }
 }
 
 @media (min-width:481px) and (max-width: 768px){
