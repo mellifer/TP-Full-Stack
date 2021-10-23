@@ -956,6 +956,10 @@ th, td{
         font-size: 8px;
     }
     
+    .elementolista{
+        font-size: 8px;
+    }
+    
 }
 
 @media (min-width:481px) and (max-width: 768px){
