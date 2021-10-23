@@ -881,7 +881,6 @@ th, td{
     .nav-menu{
         flex-direction: column;
         background-color: #E67E22;
-        position: sticky;
         border: black 2px solid;
         border-top: none;
         top: 80px;
@@ -928,7 +927,7 @@ th, td{
     }
 
     .est1im, .est2im, .est3im{
-        width: 300px;
+        width: 350px;
     }
 
     iframe{
