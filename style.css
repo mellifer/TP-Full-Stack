@@ -342,6 +342,10 @@ text-transform: uppercase;
     padding: 10px;
 }
 
+.est1 img, .est2 img, .est3 img{
+    width: auto;
+}
+
 .elementolista{
     padding: 10px 0px;
     color: moccasin;
