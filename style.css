@@ -940,7 +940,7 @@ th, td{
     }
 
     .textc{
-        font-size: 14px;
+        font-size: 10px;
 
     }
 
@@ -978,8 +978,8 @@ th, td{
         font-size: 18px;
     }
     
-    .textc, .fondoc{
-        font-size: 18px;
+    .imgc1, .textc, .fondoc{
+        font-size: 10px;
     }
     
     .cli img{
