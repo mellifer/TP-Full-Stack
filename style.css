@@ -387,6 +387,10 @@ text-transform: uppercase;
     margin: 20px 20px;
 }
 
+.cli img{
+    height: 60px;
+}
+
 .subs{
     font-size: 24px;
     color: moccasin;
@@ -964,8 +968,8 @@ th, td{
         font-size: 18px;
     }
     
-    .cli{
-        display: flex;
+    .cli img{
+        height: 30px;
     }
     
 }
