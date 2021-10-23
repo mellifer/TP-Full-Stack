@@ -965,7 +965,7 @@ th, td{
     }
     
     .cli{
-        height: 30px;
+        display: flex;
     }
     
 }
