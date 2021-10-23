@@ -392,8 +392,8 @@ text-transform: uppercase;
     width: auto;
 }
 
-.pampa{
-    height: 40px;
+.cli .pampa{
+    height: 30px;
     width: auto;
 }
 
@@ -963,11 +963,11 @@ th, td{
     }
     
     ul li{
-        font-size: 10px;
+        font-size: 8px;
     }
     
     .elist{
-        font-size: 10px;
+        font-size: 8px;
     }
     
     .subs, .txt, .fondo{
@@ -979,7 +979,7 @@ th, td{
         width: auto;
     }
     
-    .pampa{
+    .cli .pampa{
         height: 20px;
         widht: auto;
     }
