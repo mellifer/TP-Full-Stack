@@ -392,6 +392,11 @@ text-transform: uppercase;
     width: auto;
 }
 
+.pampa{
+    height: 40px;
+    width: auto;
+}
+
 .subs{
     font-size: 24px;
     color: moccasin;
@@ -958,11 +963,11 @@ th, td{
     }
     
     ul li{
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .elist{
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .subs, .txt, .fondo{
@@ -970,8 +975,13 @@ th, td{
     }
     
     .cli img{
-        height: 20px;
+        height: 30px;
         width: auto;
+    }
+    
+    .pampa{
+        height: 20px;
+        widht: auto;
     }
     
 }
