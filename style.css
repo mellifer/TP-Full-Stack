@@ -840,7 +840,7 @@ th, td{
     
     #nav-menu_grid{
         grid-area: "nav";
-        background-color: #E67E22;;
+        background-color: #E67E22;
     }
 
     #nav-logo_grid{
@@ -965,7 +965,7 @@ th, td{
     }
     
     .cli img{
-        height: 50px;
+        height: 35px;
         width: auto;
     }
     
