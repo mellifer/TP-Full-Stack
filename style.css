@@ -956,11 +956,7 @@ th, td{
         height: 150px;
     }
     
-    .elist{
-        font-size: 14px;
-    }
-    
-    .elementolista{
+    .lista2, .elementolista, .elist{
         font-size: 14px;
     }
     
@@ -969,7 +965,7 @@ th, td{
     }
     
     .cli img{
-        height: 45px;
+        height: 50px;
         width: auto;
     }
     
