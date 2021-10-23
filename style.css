@@ -961,12 +961,16 @@ th, td{
         font-size: 8px;
     }
     
+    .elist{
+        font-size: 8px;
+    }
+    
     .subs, .txt, .fondo{
         font-size: 18px;
     }
     
     .cli img{
-        height: 35px;
+        height: 30px;
         width: auto;
     }
     
