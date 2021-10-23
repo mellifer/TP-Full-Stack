@@ -952,6 +952,10 @@ th, td{
         height: 150px;
     }
     
+    .elist{
+        font-size: 8px;
+    }
+    
 }
 
 @media (min-width:481px) and (max-width: 768px){
