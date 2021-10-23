@@ -342,10 +342,6 @@ text-transform: uppercase;
     padding: 10px;
 }
 
-.est1 img, .est2 img, .est3 img{
-    width: auto;
-}
-
 .elementolista{
     padding: 10px 0px;
     color: moccasin;
@@ -931,7 +927,7 @@ th, td{
     }
 
     .est1im, .est2im, .est3im{
-        width: 360px;
+        width: 250px;
     }
 
     iframe{
