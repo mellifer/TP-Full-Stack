@@ -870,6 +870,7 @@ th, td{
         font-size: 18px;
         padding: 15px 0;
         color: black;
+        position: sticky;
         font-weight: bold;
         margin: 0px 10px;
         opacity: 0.6;
@@ -880,6 +881,7 @@ th, td{
     .nav-menu{
         flex-direction: column;
         background-color: #E67E22;
+        position: fixed;
         border: black 2px solid;
         border-top: none;
         top: 80px;
