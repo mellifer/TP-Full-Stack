@@ -389,6 +389,7 @@ text-transform: uppercase;
 
 .cli img{
     height: 60px;
+    width: auto;
 }
 
 .subs{
