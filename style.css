@@ -957,7 +957,7 @@ th, td{
     }
     
     ul li{
-        font-size: 14px;
+        font-size: 8px;
     }
     
     .subs, .txt, .fondo{
@@ -966,7 +966,7 @@ th, td{
     
     .cli img{
         height: 50px;
-        width: 50px;
+        width: auto;
     }
     
 }
